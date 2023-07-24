@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natalia Julia Curti">
+    <meta name="description" content="Projeto clone da HBO Max, feito para finalizar a trilha de CSS da DIO">
+    <meta name="keywords" content="Clone HBO Max, CSS, Flexbox, Grid Layout, Animações CSS">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>HBO Max</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/images/hbo-logo.svg" alt="Logo da HBO Max">
+        <div class="header__links">
+            <a href="singIn.html" class="header__signin">Entrar</a>
+            <a href="#plans" class="header__signnow">Assine agora</a>
+        </div>
+    </header>
+    <main>
+        <section class="content">
+            <div class="content__container">
+                <div class="content__logos">
+                    <img src="assets/images/hbo.png" alt="Logo HBO">
+                    <img src="assets/images/dc.png" alt="Logo da DC">
+                    <img src="assets/images/wb.png" alt="Logo da Warner Bros">
+                    <img src="assets/images/cartoon-network_neutral.png" alt="Logo Cartoon Network">
+                    <img src="assets/images/max_originals.png" alt="Logo Max Originals">
+                </div>
+                <h1 class="content__title">Curta as melhores histórias</h1>
+                <h1 class="content__strong"><strong>para todo mundo</strong></h1>
+                <div class="content__bar"></div>
+                <p class="content__subtitle">Assinaturas a partir de <strong>R$14,15</strong> /mês*</p>
+                <button type="button" class="content__btn">Assine agora</button>
+                <p class="content__text">*aplicável ao plano anual com pagamento antecipado.</p>
+            </div>
+        </section>
+
+        <section class="cards" id="plans">
+            <div class="cards__container">
+                <h2 class="cards__title">Conheça nossos planos e economize na assinatura trimestral ou anual com o pagamento antecipado.</h2>
+                <div class="cards__content">
+                    <div class="cards__plans">
+                        <div class="cards__plans__title">
+                            <h3>Mobile</h3>
+                            <p><span class="cards__price">R$19,90</span>/mês</p>
+                        </div>
+                        <ul>
+                            <li>Aproveite em smartphones e tablets, onde quiser.</li>
+                            <li>Assista em 1 tela por vez.</li>
+                            <li>Tenha conteúdo em resolução adaptada para cada dispositivo.</li>
+                            <li>Baixe suas séries e filmes favoritos, assista onde e quando quiser.</li>
+                        </ul>
+                        <button type="button" class="cards__btn">Escolher o plano mobile</button>
+                    </div>
+                    <div class="cards__plans">
+                        <div class="cards__plans__title">
+                            <h3>Multitelas</h3>
+                            <p><span class="cards__price">R$27,90</span>/mês</p>
+                        </div>
+                        <ul>
+                            <li>Aproveite em todos os seus dispositivos.</li>
+                            <li>Chromecast e Airplay disponíveis.</li>
+                            <li>Assista em até 3 telas ao mesmo tempo.</li>
+                            <li>Tenha conteúdo em alta definição, com qualidade 4K.</li>
+                            <li>Baixe suas séries e filmes favoritos, assista onde e quando quiser.</li>
+                            <li>Crie até 5 perfis diferentes.</li>
+                        </ul>
+                        <button type="button" class="cards__btn">Escolher o plano multitelas</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="posters">
+            <h3>Descubra novos universos</h3>
+            <div class="posters__container">
+                <div class="posters__img">
+                    <img src="assets/images/hbo-default_0.webp" alt="Poster com atores da HBO">
+                </div>
+                <div class="posters__img">
+                    <img src="assets/images/MAX-Default.webp" alt="Poster com atores da Max Orginals">
+                </div>
+                <div class="posters__img">
+                    <img src="assets/images/DC_Default.webp" alt="Poster com atores da DC">
+                </div>
+                <div class="posters__img">
+                    <img src="assets/images/WB-Default.webp" alt="Poster com atores da Warner Bros">
+                </div>
+                <div class="posters__img">
+                    <img src="assets/images/CN-Default.webp" alt="Poster com personagens de desenhos do Cartoon Network">
+                </div>
+                <div class="posters__img">
+                    <img src="assets/images/UCL-Default.webp" alt="Poster com jogadores da Champions League">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__menu">
+            <ul>
+                <li><a href="https://www.hbomax.com/br/pt/sitemap">Agora na HBO Max</a></li>
+                <li><a href="https://www.hbomax.com/br/pt/coming-soon">Em breve</a></li>
+                <li><a href="https://www.hbomax.com/br/pt/feature">Filmes em destaque</a></li>
+                <li><a href="https://www.hbomax.com/br/pt/series">Séries</a></li>
+                <li><a href="https://help.hbomax.com/br">Ajuda</a></li>
+            </ul>
+        </nav>
+        <p class="footer__text">© 2022 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</p>
+
+        <div class="footer__socials">
+            <a href="https://www.facebook.com/HBOMaxBr/">
+                <img src="assets/images/fb_0.png" alt="Logotipo Facebook">
+            </a>
+            <a href="https://twitter.com/HBOMaxBR">
+                <img src="assets/images/twitter_0.png" alt="Logotipo Twitter">
+            </a>
+            <a href="https://www.instagram.com/hbomaxbr/">
+                <img src="assets/images/instagram_0.png" alt="Logotipo Instagram">
+            </a>
+            <a href="https://www.youtube.com/c/hbomaxbr">
+                <img src="assets/images/youtube_0.png" alt="Logotipo Youtube">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>

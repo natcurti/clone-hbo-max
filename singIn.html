@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natalia Julia Curti">
+    <meta name="description" content="Projeto clone da HBO Max, feito para finalizar a trilha de CSS da DIO">
+    <meta name="keywords" content="Clone HBO Max, CSS, Flexbox, Grid Layout, Animações CSS">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Entrar | HBO Max</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/images/hbo-logo.svg" alt="Logo da HBO Max">
+        <div class="header__links">
+            <a href="singIn.html" class="header__signin">Entrar</a>
+            <a href="#plans" class="header__signnow">Assine agora</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="signin">
+            <div class="signin__container">
+                <h1 class="signin__title">Entrar</h1>
+                <div class="signin__form">
+                    <p class="signin__text">Você tem uma conta na HBO MAX?</p>
+                    <form action="#" method="POST" name="formulario-entrada">
+                        <input type="email" name="email" class="signin__email" placeholder="Endereço de email">
+                        <input type="password" minlength="8" name="password" class="signin__pass" placeholder="Senha">
+                    </form>
+                    <div class="signin__btn">
+                        <button type="submit">Entrar</button>
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__menu">
+            <ul>
+                <li><a href="https://www.hbomax.com/br/pt/sitemap">Agora na HBO Max</a></li>
+                <li><a href="https://www.hbomax.com/br/pt/coming-soon">Em breve</a></li>
+                <li><a href="https://www.hbomax.com/br/pt/feature">Filmes em destaque</a></li>
+                <li><a href="https://www.hbomax.com/br/pt/series">Séries</a></li>
+                <li><a href="https://help.hbomax.com/br">Ajuda</a></li>
+            </ul>
+        </nav>
+        <p class="footer__text">© 2022 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</p>
+
+        <div class="footer__socials">
+            <a href="https://www.facebook.com/HBOMaxBr/">
+                <img src="assets/images/fb_0.png" alt="Logotipo Facebook">
+            </a>
+            <a href="https://twitter.com/HBOMaxBR">
+                <img src="assets/images/twitter_0.png" alt="Logotipo Twitter">
+            </a>
+            <a href="https://www.instagram.com/hbomaxbr/">
+                <img src="assets/images/instagram_0.png" alt="Logotipo Instagram">
+            </a>
+            <a href="https://www.youtube.com/c/hbomaxbr">
+                <img src="assets/images/youtube_0.png" alt="Logotipo Youtube">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
